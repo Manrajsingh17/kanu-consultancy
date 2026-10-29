@@ -1,5 +1,5 @@
 $(function(){
-  var wa='https://wa.me/919876543210',mail='kanuconsultancy55@gmail.com';
+  var wa='https://wa.me/9187066869',mail='kanuconsultancy55@gmail.com';
   $('#year').text(new Date().getFullYear());
   $('#main-nav a').on('click',function(){
     if($('.navbar-toggler').is(':visible')) bootstrap.Collapse.getOrCreateInstance('#main-nav',{toggle:false}).hide();
