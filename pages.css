@@ -1,0 +1,28 @@
+/* pages.css — additions for About "Our Team" and service detail pages */
+:root{--k-navy:#142b3b;--k-gold:#b8893b;--k-ivory:#faf6ee;--k-line:#e6dfd0}
+.team-title{font-family:"Manrope",sans-serif;font-weight:800;font-size:1.25rem}
+.team-list li{position:relative;padding-left:1.25rem;margin-bottom:.75rem}
+.team-list li::before{content:"";position:absolute;left:0;top:.7em;width:7px;height:7px;border-radius:50%;background:var(--k-gold)}
+.service-card{position:relative;transition:transform .2s ease,box-shadow .2s ease}
+.service-card:hover,.service-card:focus-within{transform:translateY(-4px);box-shadow:0 10px 24px rgba(20,43,59,.12)}
+
+.svc-crumbs{margin-bottom:1.5rem;color:#6b7280}
+.svc-crumbs a{color:var(--k-navy);text-decoration:none;font-weight:600}
+.svc-crumbs span{margin:0 .35rem}
+.svc-tag{font-family:"Source Serif 4",serif;font-style:italic;font-size:1.35rem;color:var(--k-gold);margin:.25rem 0 1rem}
+.svc-intro{max-width:46rem;line-height:1.7}
+.svc-icon{display:inline-flex;width:96px;height:96px;align-items:center;justify-content:center;border-radius:20px;background:#fff;box-shadow:0 6px 18px rgba(20,43,59,.1)}
+.svc-panel{background:#fff;border:1px solid var(--k-line);border-radius:16px;padding:2rem}
+.svc-panel-alt{background:var(--k-ivory)}
+.svc-h{font-family:"Source Serif 4",serif;font-weight:600;font-size:1.5rem;color:var(--k-navy);margin-bottom:1.25rem}
+.svc-list{list-style:none;padding:0;margin:0}
+.svc-list li{position:relative;padding:.6rem 0 .6rem 1.75rem;border-bottom:1px solid var(--k-line);line-height:1.55}
+.svc-list li:last-child{border-bottom:0}
+.svc-list li::before{content:"";position:absolute;left:0;top:1.1rem;width:8px;height:8px;border-radius:50%;background:var(--k-gold)}
+.svc-list-check li::before{content:"✓";width:auto;height:auto;background:none;top:.6rem;color:var(--k-gold);font-weight:700}
+.svc-exp{font-size:1.3rem;line-height:1.7}
+.svc-cta-title{max-width:40rem;font-size:1.75rem}
+.svc-pager{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;border-top:1px solid var(--k-line)}
+.svc-pager a{display:flex;flex-direction:column;text-decoration:none;color:var(--k-navy);padding:.5rem 0}
+.svc-pager small{color:#6b7280}
+.svc-pager strong:hover{color:var(--k-gold)}
