@@ -7,7 +7,7 @@ img{max-width:100%;height:auto}
 .py-block{padding-top:64px;padding-bottom:64px}
 .bg-ivory{background:var(--ivory)}.bg-navy{background:var(--blue)}.bg-navy-deep{background:var(--blue-deep)}
 .text-navy{color:var(--blue)}.text-gold{color:var(--gold)}
-/* ===== Testimonials (append to styles.css) ===== */
+/* ===== Testimonials  styles.css) ===== */
 .testimonial-card{background:#fff;border-radius:12px;padding:28px;position:relative}
 .testimonial-card:before{content:"\201C";position:absolute;top:10px;right:22px;font:700 72px/1 "Source Serif 4",serif;color:var(--gold);opacity:.25}
 .t-logo{height:56px;display:flex;align-items:center;margin-bottom:18px}
