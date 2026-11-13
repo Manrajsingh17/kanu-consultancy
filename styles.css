@@ -7,6 +7,17 @@ img{max-width:100%;height:auto}
 .py-block{padding-top:64px;padding-bottom:64px}
 .bg-ivory{background:var(--ivory)}.bg-navy{background:var(--blue)}.bg-navy-deep{background:var(--blue-deep)}
 .text-navy{color:var(--blue)}.text-gold{color:var(--gold)}
+/* ===== Testimonials (append to styles.css) ===== */
+.testimonial-card{background:#fff;border-radius:12px;padding:28px;position:relative}
+.testimonial-card:before{content:"\201C";position:absolute;top:10px;right:22px;font:700 72px/1 "Source Serif 4",serif;color:var(--gold);opacity:.25}
+.t-logo{height:56px;display:flex;align-items:center;margin-bottom:18px}
+.t-logo img{max-height:56px;max-width:170px;width:auto;height:auto;object-fit:contain}
+.t-logo-text{font:700 15px/1 "Source Serif 4",serif;letter-spacing:.08em;text-transform:uppercase;color:var(--blue);border:1px solid var(--blue);border-radius:5px;padding:10px 14px}
+.t-quote{font-family:"Source Serif 4",serif;font-size:14px;line-height:1.7;color:#4a5a63;margin:0 0 20px}
+.t-quote p{margin:0 0 10px}
+.t-person{border-top:1px solid #e4dfd4;padding-top:14px;margin-top:auto}
+.t-name{display:block;font:600 15px "Source Serif 4",serif;color:var(--blue)}
+.t-role{display:block;font-size:12px;color:#66747b;margin-top:2px}
 
 /* header */
 .brand{font-weight:700;font-size:20px;line-height:28px;color:var(--blue);white-space:nowrap}
